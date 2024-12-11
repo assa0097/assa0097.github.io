@@ -1,0 +1,254 @@
+---CSS RESET---
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---CSS Start--- */
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f9f9f9;
+ 	color: #333;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #222;
+
+}
+
+.navigation {
+	list-style-type: none;
+	display: flex;
+	gap: 1rem;
+
+}
+
+.nav {
+    margin-right: 1rem;
+}
+
+.nav a {
+    color: #c78c06;
+    margin-left: 15px;
+}
+
+.search {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Title Section */
+
+.title-section {
+	position: relative;
+    padding: 0;
+	margin: 0;
+    text-align: center;
+    background-color: #e9e9e9;
+	margin-bottom: 0;
+}
+
+.h1 {
+    font-size: 100px; 
+    position: absolute; 
+    top: 10%; 
+    left: 10%; 
+    z-index: 2; 
+    color: white; 
+	text-align: left;
+	
+}
+
+.subheader {
+	z-index: 2;
+	position: absolute;
+	font-size: 25px;
+	top: 40%;
+	left: 10%;
+	color: white;
+	margin-top: 1rem;
+    margin-bottom: 2rem;
+	text-align: left;
+}
+
+.button-1 {
+    z-index: 2;
+	position: absolute;
+	font-size: 25px;
+	top: 55%;
+	left: 10%;
+	color: black;
+	background-color: #c78c06;
+	margin-top: 1rem;
+    margin-bottom: 2rem;
+	text-align: left;
+	padding: 1rem 2rem;
+	border: none;
+}
+
+#mainbanner {
+    position: relative; 
+    z-index: 0;
+	width: 100%;
+	object-fit: cover;  
+	height: 1000px;  
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/* About Section */
+
+#about-us {
+    background-color: #ffe6ac;
+	padding: 0;
+}
+
+#aboutus {
+	width: 45%;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+
+.about-text {
+    flex-grow: 1; 
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+	margin-left: 2%;
+	font-size: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.about-text h2 {
+    margin-bottom: 1rem;
+	font-size: 50px; 
+    font-weight: bold;
+	margin-left: 2%;
+}
+
+/* Services Section */
+
+#services {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 50px;
+}
+
+#services h2 {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-left: 19.25%;
+}
+
+.top-blocks,
+.bottom-blocks {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+.bottom-blocks {
+	width: 66%;
+}
+.services-container {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#services .block {
+    background-color: #ffe6ac;
+	width: 30%; 
+    margin-bottom: 20px;
+    box-sizing: border-box;
+	margin-bottom: -20px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.block img {
+	width: 100%;
+	height: auto;
+}
+
